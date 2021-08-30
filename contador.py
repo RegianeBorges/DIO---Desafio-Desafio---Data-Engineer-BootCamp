@@ -76,25 +76,25 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>dio-desafio-dataproc/README.md at main · marcelomarques05/dio-desafio-dataproc</title>
+  <title>dio-desafio-dataproc/contador.py at main · marcelomarques05/dio-desafio-dataproc</title>
     <meta name="description" content="Digital Innovation One - Desafio GCP Dataproc. Contribute to marcelomarques05/dio-desafio-dataproc development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
   <meta name="apple-itunes-app" content="app-id=1477376905" />
-    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/6313cb0d38702094ddff3968c962ba9934ede7d6d74e6643bf6d2063de33e3e6/marcelomarques05/dio-desafio-dataproc" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="dio-desafio-dataproc/README.md at main · marcelomarques05/dio-desafio-dataproc" /><meta name="twitter:description" content="Digital Innovation One - Desafio GCP Dataproc. Contribute to marcelomarques05/dio-desafio-dataproc development by creating an account on GitHub." />
-    <meta property="og:image" content="https://opengraph.githubassets.com/6313cb0d38702094ddff3968c962ba9934ede7d6d74e6643bf6d2063de33e3e6/marcelomarques05/dio-desafio-dataproc" /><meta property="og:image:alt" content="Digital Innovation One - Desafio GCP Dataproc. Contribute to marcelomarques05/dio-desafio-dataproc development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="dio-desafio-dataproc/README.md at main · marcelomarques05/dio-desafio-dataproc" /><meta property="og:url" content="https://github.com/marcelomarques05/dio-desafio-dataproc" /><meta property="og:description" content="Digital Innovation One - Desafio GCP Dataproc. Contribute to marcelomarques05/dio-desafio-dataproc development by creating an account on GitHub." />
+    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/6313cb0d38702094ddff3968c962ba9934ede7d6d74e6643bf6d2063de33e3e6/marcelomarques05/dio-desafio-dataproc" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="dio-desafio-dataproc/contador.py at main · marcelomarques05/dio-desafio-dataproc" /><meta name="twitter:description" content="Digital Innovation One - Desafio GCP Dataproc. Contribute to marcelomarques05/dio-desafio-dataproc development by creating an account on GitHub." />
+    <meta property="og:image" content="https://opengraph.githubassets.com/6313cb0d38702094ddff3968c962ba9934ede7d6d74e6643bf6d2063de33e3e6/marcelomarques05/dio-desafio-dataproc" /><meta property="og:image:alt" content="Digital Innovation One - Desafio GCP Dataproc. Contribute to marcelomarques05/dio-desafio-dataproc development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="dio-desafio-dataproc/contador.py at main · marcelomarques05/dio-desafio-dataproc" /><meta property="og:url" content="https://github.com/marcelomarques05/dio-desafio-dataproc" /><meta property="og:description" content="Digital Innovation One - Desafio GCP Dataproc. Contribute to marcelomarques05/dio-desafio-dataproc development by creating an account on GitHub." />
 
 
 
     
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/84254754/ws?session=eyJ2IjoiVjMiLCJ1Ijo4NDI1NDc1NCwicyI6NzE0MDUwNjMyLCJjIjoyNTIzNjUwMDEzLCJ0IjoxNjMwMTc3MDIxfQ==--7baf5759d85c15cb466cdda1b5406c382ef37964761815750ff316607f64d9a0" data-refresh-url="/_alive" data-session-id="a38cbbf2f40eaa67bb860eb3234a6ec189168816728417048287b90ce1b536f5">
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/84254754/ws?session=eyJ2IjoiVjMiLCJ1Ijo4NDI1NDc1NCwicyI6NzE0MDUwNjMyLCJjIjoyMDQ2NDYyMDEwLCJ0IjoxNjMwMTc3MDMwfQ==--1882352493a75f9eae9297a618b03d5d4eaef001d66438abb8c522e72f8370e9" data-refresh-url="/_alive" data-session-id="a38cbbf2f40eaa67bb860eb3234a6ec189168816728417048287b90ce1b536f5">
     <link rel="shared-web-socket-src" href="/socket-worker-b05e50fc.js">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="D7D3:08C4:145AA3A:176B021:612A86F7" data-pjax-transient="true" /><meta name="html-safe-nonce" content="3af3157671f43a6e920d512127df1a4c576a3f880296552fea4924ee3703341d" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9tYXJjZWxvbWFycXVlczA1L2Rpby1kZXNhZmlvLWRhdGFwcm9jIiwicmVxdWVzdF9pZCI6IkQ3RDM6MDhDNDoxNDVBQTNBOjE3NkIwMjE6NjEyQTg2RjciLCJ2aXNpdG9yX2lkIjoiNDEzMDI2NDg0MDk0MDM5Njc4NiIsInJlZ2lvbl9lZGdlIjoiYnJhemlsc291dGgiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="a1590e6da1bf9a7a2d36898fcaa79e33cc27b5d3ff51f8572e01c21f23ca26d4" data-pjax-transient="true" />
+  <meta name="request-id" content="D7D3:08C4:145ABFC:176B212:612A86FD" data-pjax-transient="true" /><meta name="html-safe-nonce" content="3af3157671f43a6e920d512127df1a4c576a3f880296552fea4924ee3703341d" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9tYXJjZWxvbWFycXVlczA1L2Rpby1kZXNhZmlvLWRhdGFwcm9jIiwicmVxdWVzdF9pZCI6IkQ3RDM6MDhDNDoxNDVBQkZDOjE3NkIyMTI6NjEyQTg2RkQiLCJ2aXNpdG9yX2lkIjoiNDEzMDI2NDg0MDk0MDM5Njc4NiIsInJlZ2lvbl9lZGdlIjoiYnJhemlsc291dGgiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="1f1d6883e6a426bab345f668488f56b8fe2408e0a2c05708a42104f16e77a664" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:371200961" data-pjax-transient>
 
@@ -133,7 +133,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="MzliNTBkZTJlMTYxOThmY2NlMzc3NTI5OTM5MDMwZmVjNjJiMDcyN2Q3MGFlYWI1YWU5MDczMTczMjdkNDUxM3x7InJlbW90ZV9hZGRyZXNzIjoiMTc5LjIxMy4xMzAuNzYiLCJyZXF1ZXN0X2lkIjoiRDdEMzowOEM0OjE0NUFBM0E6MTc2QjAyMTo2MTJBODZGNyIsInRpbWVzdGFtcCI6MTYzMDE3NzAyMSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+      <meta name="js-proxy-site-detection-payload" content="YWM3ZTE1ZWZkODk5YTlkODRiNTUzM2RmNzAyNmNlZWJiN2Q4NjA1ZjY2MTdhNzA2YjUyY2QxNWM5YzBiYmI1NXx7InJlbW90ZV9hZGRyZXNzIjoiMTc5LjIxMy4xMzAuNzYiLCJyZXF1ZXN0X2lkIjoiRDdEMzowOEM0OjE0NUFCRkM6MTc2QjIxMjo2MTJBODZGRCIsInRpbWVzdGFtcCI6MTYzMDE3NzAzMCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,GITHUB_TOKEN_PERMISSION">
 
@@ -147,7 +147,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -189,7 +189,7 @@
   href="https://github.com/"
   data-hotkey="g d"
   aria-label="Homepage "
-  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="726b0012c3146c7da3fd3eb0f2a9e8a990169ee15db7ae801b8dcfbfc68e1684"
+  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="484f9d135aa2c8c7c20b1f74b55598a33e5ceac48b4349f6f28967ccc0e6e738"
 >
   <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
     <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
@@ -239,7 +239,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" value="OZikvY9JjjBVw7RHt5YiX/yASL4WMSYWkdO3sUvZcL9a7VYvLAbVC2nfHVWkijJMlvv20VmGuVkigwfie/QPmQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+        <input type="hidden" value="Zi1gr4fwvcddF/nmHGIRtnGqMC0OKCgEKxvaMx0X4hUFWJI9JL/m/GELUPQPfgGlG9GOQkGft0uYS2pgLTqdMw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -419,7 +419,7 @@
     <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:workspaces context:user" data-selected-links="/codespaces /codespaces" href="/codespaces">
       Codespaces
 </a>
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;RegianeBorges&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="c06ce7564944059a1097d8e13b6657fbcf64a6697271017bf851ed300f448658" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;RegianeBorges&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="2bd7c7712490a2762c661d1ed30ffbd129f8e54d088d2aff9a3bfbf9639cfda7" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" href="/settings/profile">
       Settings
@@ -428,12 +428,12 @@
       <img class="avatar avatar-user" loading="lazy" decoding="async" src="https://avatars.githubusercontent.com/u/84254754?s=40&amp;v=4" width="20" height="20" alt="@RegianeBorges" />
       RegianeBorges
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Wq6/TU4LgXzAYa55q6gFJE7Lupou0vTGKZF05w+NGcD6NELpSSHa/5xYzTg1Ipxg415qVwNPxTRX+ewxqEexTA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="cYjTKT3W1WgEYgq4ngI2gfntNso0Rmx/4aZvPySL3zbREi6NOvyO61hbafkAiK/FVHjmBxnbXY2fzvfpg0F3ug==" />
       <button
         type="submit"
         class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade d-md-none btn-link d-block width-full text-left"
         style="padding-left: 2px;"
-        data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;sign out&quot;,&quot;label&quot;:&quot;icon:logout&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="ab83a7a9ee9166c3d091d16f83ea00f63791820cd3da2a4b3f0df098a9dc867f"
+        data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;sign out&quot;,&quot;label&quot;:&quot;icon:logout&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="6c3017b8612a0f9074579ac188da012d216b32a91e5f86599725bd07ee54f67a"
       >
         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sign-out v-align-middle">
     <path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path>
@@ -450,7 +450,7 @@
   href="https://github.com/"
   data-hotkey="g d"
   aria-label="Homepage "
-  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="726b0012c3146c7da3fd3eb0f2a9e8a990169ee15db7ae801b8dcfbfc68e1684"
+  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="484f9d135aa2c8c7c20b1f74b55598a33e5ceac48b4349f6f28967ccc0e6e738"
 >
   <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
     <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
@@ -466,7 +466,7 @@
       <notification-indicator
         class="js-socket-channel"
         data-test-selector="notifications-indicator"
-        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6ODQyNTQ3NTQiLCJ0IjoxNjMwMTc3MDIxfQ==--e175a86ac6ffb096dec75b899ca7720f5a1cc1400f9dca28568b7dd18a56aee6">
+        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6ODQyNTQ3NTQiLCJ0IjoxNjMwMTc3MDMwfQ==--561ff04c2202e86728ac56ad9afde0ff3774913caaaea019c2e56fce64c9478a">
         <a href="/notifications"
           class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
           
@@ -489,7 +489,7 @@
   <summary
     class="Header-link"
     aria-label="Create new…"
-    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;create new&quot;,&quot;label&quot;:&quot;icon:add&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="036c3756f8acef7a132be9faa9d02396d73cd9a7c8e542adfdab5dd5eb450262"
+    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;create new&quot;,&quot;label&quot;:&quot;icon:add&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="e4523b6991072ed6386e24fd73d62a55f20677c831fdeae13cfaad8e8f5884db"
   >
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
     <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
@@ -527,7 +527,7 @@
   <summary
     class="Header-link"
     aria-label="View profile and more"
-    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;show menu&quot;,&quot;label&quot;:&quot;icon:avatar&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="b1019e2d48c3a1f65ca9d990a3c6c6f5460d3d12ad079f583619bc75215e42b0"
+    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;show menu&quot;,&quot;label&quot;:&quot;icon:avatar&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="572121eb8c2f16c3727c06906bf075ab70a1c59c890afaff4a66742c04a0f5ee"
   >
     <img src="https://avatars.githubusercontent.com/u/84254754?s=60&amp;v=4" alt="@RegianeBorges" size="20" height="20" width="20" data-view-component="true" class="avatar-user avatar avatar-small"></img>
       <span class="feature-preview-indicator js-feature-preview-indicator" style="top: 1px;" hidden></span>
@@ -641,7 +641,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="a631ff7dbb1a0a5b77bc0799c9fff17b5c1b3cd31b35bda747a06915b6aa4367" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
+      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="da3dff8f925c9331aa700e38c782a99af96813e8104ce2be121309edd9bce79d" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
           <span data-menu-button>
             <span
               hidden
@@ -693,7 +693,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ThF6C65+QWkPxA0N9Np4tZfofPDfKcNvQSZH623K9+LhblnRLduI5oiu92DsyaD1MdanL9JIxymMZFtL6v4chQ==" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="KXfeStv6TZRaLPRdeEElcupZXOdNUwMfTCazReVT42+GCP2QWF+EG91GDjBgUv0yTGeHOEAyB1mBZK/lYmcICA==" />
 
                 <input type="hidden" name="repository_id" value="371200961">
 
@@ -816,7 +816,7 @@
 
         <details-dialog class="notifications-component-dialog " data-target="notifications-list-subscription-form.customDialog" hidden>
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="4l9sx8muNWmpO/Sg9jszcgQtkgV4581ZsmAJ1bu5OQdNIE8dSgv85i5RDs3uKOsyohNJ2nWGyR9/IhV1PI3SYA==" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="c3oQgyUondnZQTaQ6DG146UmxZ5C3FOaRHn8/bgAOl/cBTNZpo1UVl4rzP3wIm2jAxgeQU+9V9yJO+BdPzTROA==" />
 
               <input type="hidden" name="repository_id" value="371200961">
 
@@ -975,9 +975,9 @@
 
   <li>
         <div class="d-block js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/marcelomarques05/dio-desafio-dataproc/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="GVNQwOK7hqGtnPiACtjz47Ne7/TeZjqZpfXzqK9lxYNyZIMPRbYV6ys7ItQ1tdhV9ouEhCT0+B6P7TX5PpNw8A==" />
+    <form class="starred js-social-form" action="/marcelomarques05/dio-desafio-dataproc/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Sx6ObdQqUoAVoE+Y2jqvEytgg2/8xoRCmiDLs607qd8gKV2icyfBypMHlczlV4SlbrXoHwZURsWwOA3iPM0crA==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar marcelomarques05/dio-desafio-dataproc" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="cc4be29019a1db9ebe8b30ea07f1d351e01189713dc865e1ec9a29d0c1f47343" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill mr-1">
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar marcelomarques05/dio-desafio-dataproc" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="8c9b1fd6a4607247228ea3c95c75b79fe80b8a09a06032fe5ac90c17beb38e60" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill mr-1">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
 </svg>
         <span data-view-component="true">
@@ -987,9 +987,9 @@
            7
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/marcelomarques05/dio-desafio-dataproc/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="rRvjx65mgbfg4aIx7EeYpjUYv1qoEf64KVqGIZX8hKOJ5BJL+z5b1pPW2OTk59kB8Z+qRYu2d6MI8mT3PE+1uA==" />
+    <form class="unstarred js-social-form" action="/marcelomarques05/dio-desafio-dataproc/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ZzmUZ26WoKcub43MO11EEFCdxChXLCADM2hfcaQf/h5DxmXrO856xl1Y9xkz/QW3lBrRN3SLqRgSwL2nDazPBQ==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star marcelomarques05/dio-desafio-dataproc" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="7cf2fd27027101344da6a3eae3f75f71083365c78eb0c5805156e6a804b86302" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-1">
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star marcelomarques05/dio-desafio-dataproc" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="17057b7f3622ece3b7e1ef65cd35c6859842b6b076c6097615c1676c61405b4e" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-1">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg>
         <span data-view-component="true">
@@ -1003,8 +1003,8 @@
   </li>
 
   <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/marcelomarques05/dio-desafio-dataproc/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="dpfbyTF6CsZtxfCAidK32rfC8d6pci1sGP6htyuZtbv6sz2bJgfsDKwY8gAe4aSHC3AWtOXs/Hv7kJcjppH1yw==" />
-              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="d4355a586b3449c9cfa551af572d1d3afce63c897a131087304bfeb077448938" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of marcelomarques05/dio-desafio-dataproc to your account" aria-label="Fork your own copy of marcelomarques05/dio-desafio-dataproc to your account">                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/marcelomarques05/dio-desafio-dataproc/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="uD/wjLW1OG3yGW9bEDjucTSCM8o1ZGZD75jUhA5DgOo0GxbeosjepzPEbduHC/0siDDUoHn6t1QM9uIQg0vAmg==" />
+              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="22daa2cb5f8ef238da5c24bf60a80e3dbbcd843d495a7e31a3dddd006d2509a6" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of marcelomarques05/dio-desafio-dataproc to your account" aria-label="Fork your own copy of marcelomarques05/dio-desafio-dataproc to your account">                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
     <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
 </svg>
                 Fork
@@ -1183,9 +1183,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/marcelomarques05/dio-desafio-dataproc/blob/e16b77f1936d08d481eb3d18f1cdcc1cd41ec097/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/marcelomarques05/dio-desafio-dataproc/blob/e16b77f1936d08d481eb3d18f1cdcc1cd41ec097/contador.py">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:c7d04ba6be282b6e7d0138a017e2a552163ea2e29928efbaf44f0eac00db9e5a -->
+    <!-- blob contrib key: blob_contributors:v22:dd9c5cbe6499c0f63a1b646f3ceb4b9b427ab7f5b3b3e155eaa45e2ea6c2207a -->
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
       
@@ -1270,7 +1270,7 @@
             </div>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/marcelomarques05/dio-desafio-dataproc/blob/{{ urlEncodedRefName }}/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/marcelomarques05/dio-desafio-dataproc/blob/{{ urlEncodedRefName }}/contador.py" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -1310,7 +1310,7 @@
             </template>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/marcelomarques05/dio-desafio-dataproc/blob/{{ urlEncodedRefName }}/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/marcelomarques05/dio-desafio-dataproc/blob/{{ urlEncodedRefName }}/contador.py" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -1341,7 +1341,54 @@
 </div>
 
       <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/marcelomarques05/dio-desafio-dataproc"><span>dio-desafio-dataproc</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/marcelomarques05/dio-desafio-dataproc"><span>dio-desafio-dataproc</span></a></span></span><span class="separator">/</span><strong class="final-path">contador.py</strong>
+          <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
+  <summary aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:371200961,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="e35b5cc313c041645027a29e5f5ff6b9cce196d494c6ed5488ca12d360d12b20" role="button" data-view-component="true" class="Link--secondary css-truncate btn-link">
+  
+  
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+    <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
+</svg>
+    <span data-menu-button>Jump to</span>
+    <span class="dropdown-caret"></span>
+
+  
+
+</summary>  <details-menu class="SelectMenu SelectMenu--hasFilter" role="menu">
+    <div class="SelectMenu-modal">
+      <header class="SelectMenu-header">
+        <span class="SelectMenu-title">Code definitions</span>
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="jumpto-symbol-select-menu">
+          <svg aria-label="Close menu" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+        </button>
+      </header>
+        <div class="SelectMenu-filter">
+          <input
+            class="SelectMenu-input form-control js-filterable-field"
+            id="jumpto-symbols-filter-field"
+            type="text"
+            autocomplete="off"
+            spellcheck="false"
+            autofocus
+            placeholder="Filter definitions"
+            aria-label="Filter definitions">
+        </div>
+      <div class="SelectMenu-list">
+        <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
+        </div>
+      </div>
+      <footer class="SelectMenu-footer">
+        <div class="d-flex flex-justify-between">
+          Code navigation index up-to-date
+          <svg class="octicon octicon-dot-fill text-green" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+        </div>
+      </footer>
+    </div>
+  </details-menu>
+</details>
+
       </h2>
       <a href="/marcelomarques05/dio-desafio-dataproc/find/main"
             class="js-pjax-capture-input btn mr-2 d-none d-md-block"
@@ -1362,7 +1409,7 @@
 </summary>
   <div data-view-component="true">          <ul class="dropdown-menu dropdown-menu-sw">
             <li class="d-block d-md-none">
-              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="915f1ce35ba744df1207cc0478f27a6a2add44b92aa6d08e599a6731da6874ce" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/marcelomarques05/dio-desafio-dataproc/find/main">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="8954e99da18d605f28c00a1195c878df9e2598ee8e262e0388b036c9268ff70c" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/marcelomarques05/dio-desafio-dataproc/find/main">
                 <span class="flex-auto">Go to file</span>
                 <span class="text-small color-text-secondary" aria-hidden="true">T</span>
 </a>            </li>
@@ -1378,15 +1425,27 @@
   
 
 </button>            </li>
+            <li data-toggle-for="blob-more-options-details">
+              <button data-toggle-for="jumpto-symbol-select-menu" type="button" data-view-component="true" class="dropdown-item btn-link">
+  
+  
+                <span class="d-flex flex-items-baseline">
+                  <span class="flex-auto">Go to definition</span>
+                  <span class="text-small color-text-secondary" aria-hidden="true">R</span>
+                </span>
+
+  
+
+</button>            </li>
             <li class="dropdown-divider" role="none"></li>
             <li>
-              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="README.md" data-view-component="true" class="dropdown-item cursor-pointer">
+              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="contador.py" data-view-component="true" class="dropdown-item cursor-pointer">
     
                 Copy path
 
 </clipboard-copy>            </li>
             <li>
-              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/marcelomarques05/dio-desafio-dataproc/blob/e16b77f1936d08d481eb3d18f1cdcc1cd41ec097/README.md" data-view-component="true" class="dropdown-item cursor-pointer">
+              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/marcelomarques05/dio-desafio-dataproc/blob/e16b77f1936d08d481eb3d18f1cdcc1cd41ec097/contador.py" data-view-component="true" class="dropdown-item cursor-pointer">
     
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Copy permalink</span>
@@ -1401,88 +1460,17 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      
-  <div class="Box-header hx_commit-tease Details js-details-container">
-      <div class="d-flex flex-items-center">
-        <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
-          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/SolonBF/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/SolonBF"><img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/81394228?s=48&amp;v=4" width="24" height="24" alt="@SolonBF" /></a>
-        </span>
-        <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
-          <div class="css-truncate css-truncate-overflow">
-            <a class="text-bold Link--primary" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/SolonBF/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/SolonBF">SolonBF</a>
-
-              <span class="markdown-title">
-                <a data-pjax="true" title="Update README.md" class="Link--secondary" href="/marcelomarques05/dio-desafio-dataproc/commit/cbc78c4348240011c5de457d14938d86438cec4a">Update README.md</a>
-              </span>
-          </div>
-
-
-          <span class="ml-2">
-            <include-fragment accept="text/fragment+html" src="/marcelomarques05/dio-desafio-dataproc/commit/cbc78c4348240011c5de457d14938d86438cec4a/rollup?direction=e" class="d-inline"></include-fragment>
-          </span>
+      <include-fragment src="/marcelomarques05/dio-desafio-dataproc/contributors/main/contador.py" class="commit-loader">
+        <div class="Box-header hx_commit-tease d-flex flex-items-center">
+          <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
+          <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
         </div>
-        <div class="ml-3 d-flex flex-shrink-0 flex-items-center flex-justify-end color-text-secondary no-wrap">
-          <span class="d-none d-md-inline">
-            <span>Latest commit</span>
-            <a class="text-small text-mono Link--secondary" href="/marcelomarques05/dio-desafio-dataproc/commit/cbc78c4348240011c5de457d14938d86438cec4a" data-pjax>cbc78c4</a>
-            <span itemprop="dateModified"><relative-time datetime="2021-08-19T18:54:04Z" class="no-wrap">Aug 19, 2021</relative-time></span>
-          </span>
 
-          <a data-pjax href="/marcelomarques05/dio-desafio-dataproc/commits/main/README.md" class="ml-3 no-wrap Link--primary no-underline">
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-history text-gray">
-    <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path>
-</svg>
-            <span class="d-none d-sm-inline">
-              <strong>History</strong>
-            </span>
-          </a>
+        <div class="Box-body d-flex flex-items-center" >
+          <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
+          <span class="color-text-danger h6 loader-error">Cannot retrieve contributors at this time</span>
         </div>
-      </div>
-
-  </div>
-
-  <div class="Box-body d-flex flex-items-center flex-auto border-bottom-0 flex-wrap" >
-    <details class="details-reset details-overlay details-overlay-dark lh-default color-text-primary float-left mr-3" id="blob_contributors_box">
-      <summary class="Link--primary">
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-people text-gray">
-    <path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path>
-</svg>
-        <strong>2</strong>
-        
-        contributors
-      </summary>
-      <details-dialog
-        class="Box Box--overlay d-flex flex-column anim-fade-in fast"
-        aria-label="Users who have contributed to this file"
-        src="/marcelomarques05/dio-desafio-dataproc/contributors-list/main/README.md" preload>
-        <div class="Box-header">
-          <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
-</svg>
-          </button>
-          <h3 class="Box-title">
-            Users who have contributed to this file
-          </h3>
-        </div>
-        <include-fragment>
-          <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="my-3 mx-auto d-block anim-rotate">
-  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
-  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
-</svg>
-        </include-fragment>
-      </details-dialog>
-    </details>
-      <span class="">
-    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/marcelomarques05/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/marcelomarques05/dio-desafio-dataproc/commits/main/README.md?author=marcelomarques05">
-      <img class="avatar mr-2 avatar-user" src="https://avatars.githubusercontent.com/u/22683203?s=48&amp;v=4" width="24" height="24" alt="@marcelomarques05" /> 
-</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/SolonBF/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/marcelomarques05/dio-desafio-dataproc/commits/main/README.md?author=SolonBF">
-      <img class="avatar mr-2 avatar-user" src="https://avatars.githubusercontent.com/u/81394228?s=48&amp;v=4" width="24" height="24" alt="@SolonBF" /> 
-</a>
-</span>
-
-  </div>
-    </div>
+</include-fragment>    </div>
 
 
 
@@ -1495,65 +1483,33 @@
 
 
 
-    <readme-toc>
-
+  
     <div data-target="readme-toc.content" class="Box mt-3 position-relative
     ">
       
   <div
-    class="Box-header blob-header js-sticky js-position-sticky top-0 p-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
-    style="position: sticky; z-index: 1;"
+    class="Box-header py-2 pr-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
+    
   >
-
-      <details
-  data-target="readme-toc.trigger"
-  data-menu-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;trigger&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}"
-  data-menu-hydro-click-hmac="0634230e68f783e4d89ab786ebb748e35e6a757b0781a4cc616f9c50d956c497"
-  class="dropdown details-reset details-overlay"
->
-  <summary
-    class="btn btn-octicon m-0 mr-2 p-2"
-    aria-haspopup="true"
-    aria-label="Table of Contents">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-list-unordered">
-    <path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path>
-</svg>
-  </summary>
-
-
-  <details-menu class="SelectMenu" role="menu">
-    <div class="SelectMenu-modal rounded-3 mt-1" style="max-height:340px;">
-
-
-      <div class="SelectMenu-list SelectMenu-list--borderless p-2" style="overscroll-behavior: contain;">
-          <a role="menuitem" class="filter-item SelectMenu-item py-1 text-emphasized" style="padding-left: 12px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="ab05f8b535084580ecf47064f36b4660f2fda76febd855f6d53da50456fa7d18" href="#digital-innovation-one">Digital Innovation One</a>
-          <a role="menuitem" class="filter-item SelectMenu-item py-1 " style="padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="ab05f8b535084580ecf47064f36b4660f2fda76febd855f6d53da50456fa7d18" href="#desafio-gcp-dataproc">Desafio GCP Dataproc</a>
-          <a role="menuitem" class="filter-item SelectMenu-item py-1 " style="padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="ab05f8b535084580ecf47064f36b4660f2fda76febd855f6d53da50456fa7d18" href="#etapas-do-desafio">Etapas do Desafio</a>
-          <a role="menuitem" class="filter-item SelectMenu-item py-1 " style="padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="ab05f8b535084580ecf47064f36b4660f2fda76febd855f6d53da50456fa7d18" href="#entrega-do-resultado">Entrega do Resultado</a>
-          <a role="menuitem" class="filter-item SelectMenu-item py-1 " style="padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:371200961,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="ab05f8b535084580ecf47064f36b4660f2fda76febd855f6d53da50456fa7d18" href="#considerações-finais">Considerações Finais</a>
-      </div>
-    </div>
-  </details-menu>
-</details>
 
 
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
 
-      41 lines (24 sloc)
+      7 lines (7 sloc)
       <span class="file-info-divider"></span>
-    1.82 KB
+    422 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
 
     <div class="BtnGroup">
-      <a href="/marcelomarques05/dio-desafio-dataproc/raw/main/README.md" id="raw-url" role="button" data-view-component="true" class="btn-sm btn BtnGroup-item">
+      <a href="/marcelomarques05/dio-desafio-dataproc/raw/main/contador.py" id="raw-url" role="button" data-view-component="true" class="btn-sm btn BtnGroup-item">
   
   Raw
   
 
 </a>
-        <a href="/marcelomarques05/dio-desafio-dataproc/blame/main/README.md" data-hotkey="b" role="button" data-view-component="true" class="js-update-url-with-hash btn-sm btn BtnGroup-item">
+        <a href="/marcelomarques05/dio-desafio-dataproc/blame/main/contador.py" data-hotkey="b" role="button" data-view-component="true" class="js-update-url-with-hash btn-sm btn BtnGroup-item">
   
   Blame
   
@@ -1572,7 +1528,7 @@
 </svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/marcelomarques05/dio-desafio-dataproc/edit/main/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="pj+ufdFhhGHTfogPEBcbtBsRqiz6JHguX9hZg8K50VMCh/t9NDt82d/Ti3uxJedDPLG0B3vY03pyqKQluz93OQ==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/marcelomarques05/dio-desafio-dataproc/edit/main/contador.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Cj2I1JpznVPfKwvOG0jNsRN9klDc0vHlCmjZflbRYweU5+ZFpS5VGXKl7BvHZq++ZiuX296JOYVdJrimuWBgjg==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
@@ -1580,7 +1536,7 @@
 </svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/marcelomarques05/dio-desafio-dataproc/delete/main/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="0dokwqdU4eYNDreNO5b4h0TDWnvIuekSaLQbpJL+iqO+Z10GyabYQv28HuXMo3yDBGDnAahoYBJ4jxWGJgwQnQ==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/marcelomarques05/dio-desafio-dataproc/delete/main/contador.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ftOjg8WBkV3X6fEWQZh11o2I6Q2J3Xz8Jc4WLXUTrX2K8KTb7lRB1NFGOdZFphgQXQe1pYplx6k2BNoMIrUAAQ==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete the file in your fork of this project" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
@@ -1592,7 +1548,7 @@
 
     <div class="d-flex hide-lg hide-xl flex-order-2 flex-grow-0">
       <details class="dropdown details-reset details-overlay d-inline-block">
-        <summary class="btn-octicon p-2" aria-haspopup="true" aria-label="possible actions">
+        <summary class="btn-octicon" aria-haspopup="true" aria-label="possible actions">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
     <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
 </svg>
@@ -1608,22 +1564,22 @@
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/marcelomarques05/dio-desafio-dataproc/raw/main/README.md">
+            <a class="dropdown-item" href="/marcelomarques05/dio-desafio-dataproc/raw/main/contador.py">
               View raw
             </a>
           </li>
             <li>
-              <a class="dropdown-item" href="/marcelomarques05/dio-desafio-dataproc/blame/main/README.md">
+              <a class="dropdown-item" href="/marcelomarques05/dio-desafio-dataproc/blame/main/contador.py">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/marcelomarques05/dio-desafio-dataproc/edit/main/README.md">Edit file</a>
+                <a class="dropdown-item" href="/marcelomarques05/dio-desafio-dataproc/edit/main/contador.py">Edit file</a>
               </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/marcelomarques05/dio-desafio-dataproc/delete/main/README.md">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/marcelomarques05/dio-desafio-dataproc/delete/main/contador.py">Delete file</a>
               </li>
         </ul>
       </details>
@@ -1631,53 +1587,72 @@
 </div>
 
 
-        <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-digital-innovation-one" class="anchor" aria-hidden="true" href="#digital-innovation-one"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Digital Innovation One</h1>
-<p>Código criado para utilização junto a plataforma da Digital Innovation One</p>
-<p align="center"><a target="_blank" rel="noopener noreferrer" href="/marcelomarques05/dio-desafio-dataproc/blob/main/DIO.png"><img src="/marcelomarques05/dio-desafio-dataproc/raw/main/DIO.png" width="500" style="max-width:100%;"></a></p>
-<h2><a id="user-content-desafio-gcp-dataproc" class="anchor" aria-hidden="true" href="#desafio-gcp-dataproc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Desafio GCP Dataproc</h2>
-<p>O desafio faz parte do curso na plataforma da Digital Innovation One:</p>
-<p><strong><em>Criando um ecossistema Hadoop totalmente gerenciado com Google Cloud Platform</em></strong></p>
-<p>O desafio consiste em efetuar um processamento de dados utilizando o produto Dataproc do GCP. Esse processamento irá efetuar a contahem das palavras de um livro e informar quantas vezes cada palavra aparece no mesmo.</p>
-<hr>
-<h3><a id="user-content-etapas-do-desafio" class="anchor" aria-hidden="true" href="#etapas-do-desafio"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Etapas do Desafio</h3>
-<ol>
-<li>
-<p>Criar um bucket no Cloud Storage</p>
-</li>
-<li>
-<p>Atualizar o arquivo <code>contador.py</code> com o nome do Bucket criado nas linhas que contém <code>{SEU_BUCKET}</code>.</p>
-</li>
-<li>
-<p>Fazer o upload dos arquivos <code>contador.py</code> e <code>livro.txt</code> para o bucket criado (instruções abaixo)</p>
-<ul>
-<li><a href="https://cloud.google.com/storage/docs/uploading-objects" rel="nofollow">https://cloud.google.com/storage/docs/uploading-objects</a></li>
-</ul>
-</li>
-<li>
-<p>Utilizar o código em um cluster Dataproc, executando um Job do tipo PySpark chamando <code>gs://{SEU_BUCKET}/contador.py</code></p>
-</li>
-<li>
-<p>O Job irá gerar uma pasta no bucket chamada <code>resultado</code>. Dentro dessa pasta o arquivo <code>part-00000</code> irá conter a lista de palavras e quantas vezes ela é repetida em todo o livro.</p>
-</li>
-</ol>
-<h3><a id="user-content-entrega-do-resultado" class="anchor" aria-hidden="true" href="#entrega-do-resultado"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Entrega do Resultado</h3>
-<ol>
-<li>Criar um repositório no GitHub.</li>
-<li>Criar um arquivo chamado <code>resultado.txt</code>. Dentro desse arquivo, colocar as 10 palavras que mais são usadas no livro, de acordo com o resultado do Job.</li>
-<li>Inserir os arquivo <code>resultado.txt</code> e <code>part-00000</code> no repositório e informar na plataforma da Digital Innovation One.</li>
-</ol>
-<hr>
-<h3><a id="user-content-considerações-finais" class="anchor" aria-hidden="true" href="#considerações-finais"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Considerações Finais</h3>
-<p>NOTA: Se o Job mostrar um WARN de Interrupt, basta ignorar. Existe um bug no Hadoop que é conhecido. Isso não impacta no processamento.</p>
-<p>Qualquer outra dúvida, informação ou sugestão, fique a vontade para entrar em contato.</p>
-<p><a href="mailto:marcelo@smarques.com">marcelo@smarques.com</a></p>
-</article>
+      
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-python  gist-border-0">
+
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>sys</span></td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>pyspark</span> <span class=pl-k>import</span> <span class=pl-v>SparkContext</span>, <span class=pl-v>SparkConf</span></td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-k>if</span> <span class=pl-s1>__name__</span> <span class=pl-c1>==</span> <span class=pl-s>&quot;__main__&quot;</span>:</td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>sc</span> <span class=pl-c1>=</span> <span class=pl-v>SparkContext</span>(<span class=pl-s>&quot;local&quot;</span>,<span class=pl-s>&quot;PySpark Exemplo - Desafio Dataproc&quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>words</span> <span class=pl-c1>=</span> <span class=pl-s1>sc</span>.<span class=pl-en>textFile</span>(<span class=pl-s>&quot;gs://{SEU_BUCKET}/livro.txt&quot;</span>).<span class=pl-en>flatMap</span>(<span class=pl-k>lambda</span> <span class=pl-s1>line</span>: <span class=pl-s1>line</span>.<span class=pl-en>split</span>(<span class=pl-s>&quot; &quot;</span>))</td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>wordCounts</span> <span class=pl-c1>=</span> <span class=pl-s1>words</span>.<span class=pl-en>map</span>(<span class=pl-k>lambda</span> <span class=pl-s1>word</span>: (<span class=pl-s1>word</span>, <span class=pl-c1>1</span>)).<span class=pl-en>reduceByKey</span>(<span class=pl-k>lambda</span> <span class=pl-s1>a</span>,<span class=pl-s1>b</span>:<span class=pl-s1>a</span> <span class=pl-c1>+</span><span class=pl-s1>b</span>).<span class=pl-en>sortBy</span>(<span class=pl-k>lambda</span> <span class=pl-s1>a</span>:<span class=pl-s1>a</span>[<span class=pl-c1>1</span>], <span class=pl-s1>ascending</span><span class=pl-c1>=</span><span class=pl-c1>False</span>)</td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>wordCounts</span>.<span class=pl-en>saveAsTextFile</span>(<span class=pl-s>&quot;gs://{SEU_BUCKET}/resultado&quot;</span>)</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 color-bg-primary border color-border-tertiary rounded-1" aria-label="Inline file action toolbar">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
+    </summary>
+    <details-menu>
+
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se ml-2 mt-2"
+      style="width:185px"
+      >
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/marcelomarques05/dio-desafio-dataproc/blame/e16b77f1936d08d481eb3d18f1cdcc1cd41ec097/contador.py">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/marcelomarques05/dio-desafio-dataproc/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
   </div>
 
     </div>
 
-  </readme-toc>
 
   
 
@@ -1699,10 +1674,10 @@
      hidden
      data-tagsearch-url="/marcelomarques05/dio-desafio-dataproc/find-definition"
      data-tagsearch-ref="main"
-     data-tagsearch-path="README.md"
-     data-tagsearch-lang="Markdown"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:371200961,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}"
-     data-hydro-click-hmac="cc1b756b42ea522424d64a034b4bdb8f3e66120fbff045f0a486873b568e1a37">
+     data-tagsearch-path="contador.py"
+     data-tagsearch-lang="Python"
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:371200961,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}"
+     data-hydro-click-hmac="bb5bebe5f940787f1fe0a204124d699e344c3bdbc47c7cf0fa85abade5dfefc7">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">
     <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
     </div>
@@ -1727,10 +1702,10 @@
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 color-text-secondary border-top color-border-secondary ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
       <li class="mr-3 mr-lg-0">&copy; 2021 GitHub, Inc.</li>
-        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="5a7e538bd7444ce54ec382b5a65eb60a74868759940c6558e4e8a636163d7fae">Terms</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="3fd25eb767aaff4f0e02b26c6b416c95de1fc62594b20840e49117554a4752b4">Privacy</a></li>
-        <li class="mr-3 mr-lg-0"><a data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="7dbafd1de2e8b1eb76dac0b1906cf3975c8c6a5b41d6756d22591932181e8d6d" href="https://github.com/security">Security</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="270b9476d9dd0699a2665475482fe5f3e63560958d6b4f4292ed4fe163040a68">Status</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="858dcb50ca2a4113e2842b1e1bc0a2cb8ca5af8d7e440aaae413813a7a322401">Terms</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="026adc608c7e7d42330fde477c294b9b7e78b57c7fc1ec78072a404dd315a9eb">Privacy</a></li>
+        <li class="mr-3 mr-lg-0"><a data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="0bafa859fb00331f391ca89a4781d2ccaf8f43f50ef2295cc43714bc0e56aa02" href="https://github.com/security">Security</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="e81c649ce42fbb284e66e79b8feaba421ac6d4be969e6c13c25a30721597e388">Status</a></li>
         <li><a data-ga-click="Footer, go to help, text:Docs" href="https://docs.github.com">Docs</a></li>
     </ul>
 
@@ -1740,11 +1715,11 @@
 </svg>
 </a>
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-        <li class="mr-3 mr-lg-0"><a href="https://support.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="bd7f8a6d0ec11dbb82f318b8061764e19d29d8832474a84cf10faeca0894734f">Contact GitHub</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="367622b0c1a6f25eb9473f3b836341d7652ed370f8983aff073ba8093aa0a4e4">Pricing</a></li>
-      <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="0765f9e410b873f9f6de53089479894c3a83b904741b53377acd0db53156821d">API</a></li>
-      <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="f94c1913bdeaeac98b87b09c922774771bc6b366a8ba3168d487e25858bb936f">Training</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/README.md&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="ce8f2e18cb8b4efe29b2bf7fbfb6b64b9161e33ed63f421f03405497c630c76c">Blog</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://support.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="8ae421e63c431bff76481d25423644624915d8b62eece2b2c30112cb815b236a">Contact GitHub</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="3d7e1efb9f500e1356cc0dca8a8ea2bfd1b106ff455b8b5ebc5b387832a6ff44">Pricing</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="1e66ba604b0de6adb8872ee0b07ccdb4f0f75f65bb6d8398ec12cbd86632a2be">API</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="16c5721f9ca86e7fb5a15e884eaec4471fb44bc83d0642f11d62ac566268811c">Training</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;,&quot;originating_url&quot;:&quot;https://github.com/marcelomarques05/dio-desafio-dataproc/blob/main/contador.py&quot;,&quot;user_id&quot;:84254754}}" data-hydro-click-hmac="2eb0b6f7f74babfa42a59988bb3047bd0b77ee1fde18d21fb208a8d413b174c8">Blog</a></li>
         <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
     </ul>
   </div>
